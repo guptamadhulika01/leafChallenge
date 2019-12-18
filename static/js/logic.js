@@ -69,7 +69,6 @@ function createFeatures(earthquakeData) {
     // Sending our earthquakes layer to the createMap function
     //createMap(earthquakes);
 
-
 function createMap(earthquakes) {
 
     // Define streetmap and darkmap layers
