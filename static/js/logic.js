@@ -16,7 +16,9 @@ function createFeatures(earthquakeData) {
             "</h3><hr><p>" + new Date(feature.properties.time) + "</p>");
     }
 
+    
     // Create a GeoJSON layer containing the features array on the earthquakeData object
+    
     // Run the onEachFeature function once for each piece of data in the array
     var earthquakes = L.geoJSON(earthquakeData, {
         onEachFeature: addPopUp,
