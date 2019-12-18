@@ -37,6 +37,7 @@ function createFeatures(earthquakeData) {
             stroke: true,
             weight: 0.5
         };
+        
     }
 
     function getColor(magnitude) {
